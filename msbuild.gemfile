@@ -1,0 +1,11 @@
+Gem::Specification.new do |s|
+  s.name        = "msbuild"
+  s.version     = "0.1.0"
+  s.summary     = "msbuild"
+  s.description = "msbuild"
+  s.authors     = ["pjc0247"]
+  s.email       = 'pjc0247@naver.com'
+  s.files = Dir["{lib}/**/*.rb"]
+
+  s.add_development_dependency "os"
+end
