@@ -11,7 +11,7 @@ gem install msbuild
 
 Example
 ----
-```
+```rb
 require 'msbuild'
 
 list = MSBuild.avaliable_versions
